@@ -54,10 +54,7 @@ TPI_Organizacion_Empresarial/
 │   ├── Manual_Usuario.md
 │   ├── Casos_de_Prueba.md
 │   └── BPMN OE.jpg
-├── /datos
-│   └── (productos / SKUs de referencia usados por el simulador)
-└── /resultados
-    └── (capturas de pantalla de ejecución / evidencias de testing)
+└── .gitignore
 ```
 
 ## Cómo ejecutarlo
@@ -73,6 +70,14 @@ python3 chatbot_rechazos.py
 Al ejecutarlo se muestra un menú interactivo con 6 opciones: registrar ticket,
 consultar ticket, actualizar estado, mostrar todos los tickets, cerrar ticket y
 salir. Ver `documentacion/Manual_Usuario.md` para el detalle paso a paso.
+
+## Seguridad y privacidad
+
+El proyecto utiliza datos simulados y no contiene información confidencial real de clientes, productos ni operaciones comerciales. No se incluyen usuarios, contraseñas, tokens, claves de API ni credenciales de acceso a sistemas externos.
+
+El chatbot no se conecta realmente a SAP ni a WMS; la integración es conceptual y se representa mediante estados simulados. Los archivos CSV utilizados funcionan como almacenamiento académico para demostrar persistencia de datos.
+
+Se incorpora un archivo `.gitignore` para evitar subir archivos temporales, entornos virtuales, cachés o posibles archivos de configuración local.
 
 ## Equipo
 
