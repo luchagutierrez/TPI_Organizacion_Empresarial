@@ -89,9 +89,9 @@ Si falta alguno de estos tres pasos, el bot avisa cuál falta y no cierra el tic
 
 ## 7. Salir (opción 6)
 
-Cierra el programa. **Importante:** los tickets se guardan solo mientras el
-programa está abierto (es una simulación en memoria); al cerrar el programa, esa
-información no queda guardada en ningún archivo.
+Cierra el programa. **Importante:** el sistema utiliza archivos CSV permanentes para almacenar la información del chatbot. 
+Los productos y clientes se consultan desde archivos CSV, mientras que los tickets y sus detalles pueden registrarse en 
+archivos de almacenamiento para mantener la información disponible entre ejecuciones del programa.
 
 ## Resumen visual del flujo de uso
 
