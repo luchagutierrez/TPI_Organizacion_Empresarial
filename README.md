@@ -32,7 +32,7 @@ proceso, asegurando que cada devolución se trate de punta a punta.
 
 - **Python 3** (sin librerías externas) — simulación por consola.
 - **BPMN 2.0** — modelado del proceso de negocio (as-is / to-be).
-- Herramientas de IA (ChatGPT) como apoyo en redacción y generación de ideas, bajo
+- Herramientas de IA (ChatGPT, Claude) como apoyo en redacción y generación de ideas, bajo
   revisión y validación de los autores.
 
 ## Estructura del repositorio
@@ -41,12 +41,18 @@ proceso, asegurando que cada devolución se trate de punta a punta.
 TPI_Organizacion_Empresarial/
 ├── README.md
 ├── /chatbot
-│   └── chatbot_rechazos.py
+│   ├── chatbot_rechazos.py
+│   └──/CSV_permanentes
+│      ├── README_CSV.txt
+│      ├── clientes.csv 
+│      ├── detalle_rechazos.csv
+│      ├── productos.csv
+│      └── ticket.csv   
 ├── /documentacion
-│   ├── Informe_TPI_Organizacion_Empresarial.pdf
+│   ├── Informe.pdf
 │   ├── Manual_Usuario.md
 │   ├── Casos_de_Prueba.md
-│   └── Diagrama_BPMN.png
+│   └── BPMN OE.jpg
 ├── /datos
 │   └── (productos / SKUs de referencia usados por el simulador)
 └── /resultados
