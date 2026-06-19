@@ -49,6 +49,7 @@ TPI_Organizacion_Empresarial/
 │      ├── productos.csv
 │      └── ticket.csv   
 ├── /documentacion
+│   ├──Anexo Capturas IA.pdf
 │   ├── Informe.pdf
 │   ├── Manual_Usuario.md
 │   ├── Casos_de_Prueba.md
